@@ -14,7 +14,7 @@ The agent exposes a web-based chat UI served by an Express.js server. Responses 
 | Agent Framework | LangChain.js (`langchain`, `@langchain/openai`, `@langchain/community`) |
 | LLM | OpenAI GPT-4o |
 | Embeddings | OpenAI `text-embedding-3-small` |
-| Vector Store | ChromaDB (local, persistent) |
+| Vector Store | HNSWLib (local, persistent, pure JS) |
 | Web Search | Tavily API |
 | Web Server | Express.js |
 | Streaming | Server-Sent Events (SSE) |
@@ -26,13 +26,13 @@ The agent exposes a web-based chat UI served by an Express.js server. Responses 
 | File | Purpose |
 |------|---------|
 | `server.js` | Express server — serves the UI, handles `/api/chat` and `/api/chat/stream` endpoints |
-| `src/agent.js` | Core ReAct agent — assembles tools, memory, and the LLM into an `AgentExecutor` |
+| `src/agent.js` | Core ReAct agent — assembles tools, memory, and the LLM |
 | `src/tools/calculator.js` | Math evaluation tool using `mathjs` |
 | `src/tools/webSearch.js` | Tavily-powered web search tool |
-| `src/tools/ragTool.js` | Knowledge base similarity search against ChromaDB |
-| `src/memory.js` | Conversation memory (BufferWindowMemory, k=10) |
-| `src/vectorStore.js` | ChromaDB client initialisation and persistent collection management |
-| `src/ingestDocuments.js` | Standalone script to read `.txt` files from `documents/` and upsert into ChromaDB |
+| `src/tools/ragTool.js` | Knowledge base similarity search against HNSWLib |
+| `src/memory.js` | Per-session conversation memory (k=10) |
+| `src/vectorStore.js` | HNSWLib vector store initialisation and persistent index management |
+| `src/ingestDocuments.js` | Standalone script to read `.txt` files from `documents/` and embed into HNSWLib |
 | `src/logger.js` | Winston logger with `logToolCall` and `logAgentStep` helpers |
 | `public/index.html` | Self-contained chat UI (HTML + CSS + JS) |
 
@@ -40,9 +40,9 @@ The agent exposes a web-based chat UI served by an Express.js server. Responses 
 
 1. **User sends a message** via the chat UI.
 2. The Express server forwards it to `runAgent()` (or `streamAgent()` for SSE).
-3. The LangChain `AgentExecutor` passes the message + chat history to GPT-4o.
+3. The LangChain agent passes the message + chat history to GPT-4o.
 4. The LLM **reasons** about the query and decides whether it needs a tool.
-5. If a tool is needed, the executor **acts** — invokes the chosen tool with generated input.
+5. If a tool is needed, the agent **acts** — invokes the chosen tool with generated input.
 6. The tool result is fed back to the LLM as an **observation**.
 7. Steps 4–6 repeat until the LLM produces a **final answer**.
 8. The final answer is returned (or streamed) to the user.
@@ -54,16 +54,14 @@ The agent exposes a web-based chat UI served by an Express.js server. Responses 
 | `OPENAI_API_KEY` | OpenAI API key for GPT-4o and embeddings |
 | `TAVILY_API_KEY` | Tavily API key for web search |
 | `PORT` | Express server port (default `3000`) |
-| `CHROMA_DB_PATH` | Path to persistent ChromaDB data (default `./chroma_db`) |
-| `COLLECTION_NAME` | ChromaDB collection name (default `agent_documents`) |
+| `VECTOR_STORE_PATH` | Directory for persistent HNSWLib index (default `./vector_store`) |
 
 ## How to Run
 
 ```bash
 npm install
 cp .env.example .env   # fill in your API keys
-# Start ChromaDB:  pip install chromadb && chroma run --path ./chroma_db
-node src/ingestDocuments.js   # ingest documents into ChromaDB
+node src/ingestDocuments.js   # embed documents into HNSWLib
 node server.js                # start the server
 # Open http://localhost:3000
 ```

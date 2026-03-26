@@ -106,8 +106,8 @@ app.listen(PORT, () => {
       logger.info('Vector store is ready with ingested documents.');
     } else {
       logger.warn(
-        'Vector store has no documents or is unreachable. ' +
-        'Run "npm run ingest" after starting ChromaDB to ingest documents.'
+        'Vector store has no documents or is not yet created. ' +
+        'Run "npm run ingest" to embed documents into the vector store.'
       );
     }
   });

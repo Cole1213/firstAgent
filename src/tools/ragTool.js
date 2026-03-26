@@ -3,7 +3,7 @@ import { getVectorStore } from '../vectorStore.js';
 import { logToolCall } from '../logger.js';
 
 /**
- * Knowledge base search tool that queries the ChromaDB vector store.
+ * Knowledge base search tool that queries the HNSWLib vector store.
  * Performs similarity search and returns results with source attribution.
  * @returns {DynamicTool} The RAG tool instance.
  */

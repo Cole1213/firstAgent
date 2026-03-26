@@ -33,7 +33,7 @@ Requires a calculator for math problems, a search engine for fact-checking, and 
 
 ### Tool 3: Knowledge Base Search (`knowledge_base_search`)
 - **Input**: A natural-language question or keyword query.
-- **Behaviour**: Performs a similarity search (top 3) against the ChromaDB vector store. Returns matching passages with source-file attribution.
+- **Behaviour**: Performs a similarity search (top 3) against the HNSWLib vector store. Returns matching passages with source-file attribution.
 - **Output format**:
   ```
   Result 1 (Source: document_name.txt):
@@ -69,7 +69,7 @@ Requires a calculator for math problems, a search engine for fact-checking, and 
 
 - **Streaming**: All agent responses are streamed via SSE for low perceived latency.
 - **Logging**: Structured JSON logs via Winston; every tool call logged with name, input, output, and latency.
-- **Persistence**: ChromaDB vector store persists to disk; survives server restarts.
+- **Persistence**: HNSWLib vector store persists to disk; survives server restarts.
 - **Security**: No API keys in source code; all secrets via environment variables.
 - **Error resilience**: Tool errors are caught and returned as strings; the agent never crashes from a tool failure.
 

@@ -23,11 +23,11 @@ A conversational AI chatbot built with **LangChain.js** that uses the **ReAct (R
   │                                                │
   │  ┌────────────┐ ┌───────────┐ ┌─────────────┐ │
   │  │ Calculator │ │ Web Search│ │ RAG / KB    │ │
-  │  │  (mathjs)  │ │ (Tavily)  │ │ (ChromaDB)  │ │
+  │  │  (mathjs)  │ │ (Tavily)  │ │ (HNSWLib)   │ │
   │  └────────────┘ └───────────┘ └──────┬──────┘ │
   │                                      │        │
   │  ┌──────────────┐  ┌─────────────────▼──────┐ │
-  │  │ Session      │  │ ChromaDB Vector Store  │ │
+  │  │ Session      │  │ HNSWLib Vector Store   │ │
   │  │ Memory (k=10)│  │ (persistent, local)    │ │
   │  └──────────────┘  └────────────────────────┘ │
   └────────────────────────────────────────────────┘
@@ -38,7 +38,6 @@ A conversational AI chatbot built with **LangChain.js** that uses the **ReAct (R
 ## Prerequisites
 
 - **Node.js** v18 or later
-- **Python 3.8+** (for ChromaDB server)
 - **OpenAI API key** (GPT-4o + embeddings)
 - **Tavily API key** (web search)
 
@@ -71,34 +70,24 @@ Open `.env` and fill in your API keys:
 OPENAI_API_KEY=sk-...
 TAVILY_API_KEY=tvly-...
 PORT=3000
-CHROMA_DB_PATH=./chroma_db
-COLLECTION_NAME=agent_documents
+VECTOR_STORE_PATH=./vector_store
 ```
 
-4. **Install and start ChromaDB**
-
-```bash
-pip install chromadb
-chroma run --path ./chroma_db
-```
-
-ChromaDB will start on `http://localhost:8000`. Leave this running.
-
-5. **Ingest documents into the knowledge base**
+4. **Ingest documents into the knowledge base**
 
 ```bash
 npm run ingest
 ```
 
-This reads all `.txt` files from the `documents/` folder, splits them into chunks, and stores them in ChromaDB.
+This reads all `.txt` files from the `documents/` folder, splits them into chunks, embeds them, and saves the HNSWLib index to `./vector_store`.
 
-6. **Start the server**
+5. **Start the server**
 
 ```bash
 npm start
 ```
 
-7. **Open the app**
+6. **Open the app**
 
 Navigate to [http://localhost:3000](http://localhost:3000) in your browser.
 
@@ -111,8 +100,7 @@ Navigate to [http://localhost:3000](http://localhost:3000) in your browser.
 | `OPENAI_API_KEY` | Yes | — | OpenAI API key for GPT-4o and text-embedding-3-small |
 | `TAVILY_API_KEY` | Yes | — | Tavily API key for web search |
 | `PORT` | No | `3000` | Port the Express server listens on |
-| `CHROMA_DB_PATH` | No | `./chroma_db` | File path for persistent ChromaDB storage |
-| `COLLECTION_NAME` | No | `agent_documents` | Name of the ChromaDB collection |
+| `VECTOR_STORE_PATH` | No | `./vector_store` | Directory path for persistent HNSWLib index |
 
 ---
 
@@ -125,7 +113,7 @@ Evaluates mathematical expressions using the `mathjs` library. Handles arithmeti
 Queries the Tavily API for current information from the web. Returns the top 3 results with titles, snippets, and URLs. Used for real-time information, news, and topics not covered by the knowledge base.
 
 ### Knowledge Base Search (`knowledge_base_search`)
-Performs similarity search against the ChromaDB vector store containing ingested documents. Returns the top 3 most relevant passages with source-file attribution (e.g., "Source: langchain_guide.txt").
+Performs similarity search against the HNSWLib vector store containing ingested documents. Returns the top 3 most relevant passages with source-file attribution (e.g., "Source: langchain_guide.txt").
 
 ### Conversation Memory (implicit)
 Maintains per-session chat history (last 10 exchanges) so the agent can reference earlier messages in the conversation.
@@ -159,13 +147,13 @@ firstAgent/
 │   ├── tools/
 │   │   ├── calculator.js   # Math evaluation tool (mathjs)
 │   │   ├── webSearch.js    # Tavily web search tool
-│   │   └── ragTool.js      # ChromaDB knowledge base search tool
+│   │   └── ragTool.js      # HNSWLib knowledge base search tool
 │   ├── memory.js           # Per-session conversation memory (k=10)
-│   ├── vectorStore.js      # ChromaDB client initialisation
+│   ├── vectorStore.js      # HNSWLib vector store initialisation
 │   ├── ingestDocuments.js  # Document ingestion script
 │   └── logger.js           # Winston structured logger
 ├── documents/              # Source .txt files for RAG ingestion
-├── chroma_db/              # Persistent vector store data (gitignored)
+├── vector_store/           # Persistent HNSWLib index (gitignored)
 ├── logs/                   # Log files (gitignored)
 ├── .cursorrules            # Cursor AI coding rules
 ├── .gitignore
@@ -199,5 +187,5 @@ Agent reasoning steps are also logged with the action taken and the observation 
 | Command | Description |
 |---------|-------------|
 | `npm start` | Start the Express server |
-| `npm run ingest` | Ingest documents from `documents/` into ChromaDB |
+| `npm run ingest` | Ingest documents from `documents/` into the HNSWLib vector store |
 | `npm run dev` | Start with nodemon (auto-restart on changes) |

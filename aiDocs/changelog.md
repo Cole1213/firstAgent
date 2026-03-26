@@ -8,9 +8,12 @@
 - `src/logger.js` — Winston structured logger with `logToolCall` and `logAgentStep`
 - `src/tools/calculator.js` — Math evaluation tool using mathjs
 - `src/tools/webSearch.js` — Tavily-powered web search tool
-- `src/tools/ragTool.js` — ChromaDB knowledge base search with source attribution
-- `src/vectorStore.js` — ChromaDB client initialisation (persistent, cosine similarity)
+- `src/tools/ragTool.js` — HNSWLib knowledge base search with source attribution
+- `src/vectorStore.js` — HNSWLib vector store initialisation (persistent, local)
 - `src/ingestDocuments.js` — Document ingestion script with chunking
+
+### Changed
+- Replaced ChromaDB with HNSWLib — no separate server required, runs entirely in Node.js
 - 5 knowledge documents: AI overview, LangChain guide, ReAct pattern, vector databases, Node.js best practices
 - `src/memory.js` — Per-session conversation memory (k=10 exchanges)
 - `src/agent.js` — ReAct agent using `createAgent` from LangChain with GPT-4o

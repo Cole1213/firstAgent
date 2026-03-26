@@ -1,6 +1,6 @@
 node_modules/
 .env
-chroma_db/
+vector_store/
 *.log
 .DS_Store
 dist/

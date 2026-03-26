@@ -1,7 +1,7 @@
-import { Chroma } from '@langchain/community/vectorstores/chroma';
-import { OpenAIEmbeddings } from '@langchain/openai';
-import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
-import { TextLoader } from 'langchain/document_loaders/fs/text';
+import { HNSWLib } from '@langchain/community/vectorstores/hnswlib';
+import { RecursiveCharacterTextSplitter } from '@langchain/textsplitters';
+import { Document } from '@langchain/core/documents';
+import { getEmbeddings, getVectorStorePath } from './vectorStore.js';
 import path from 'path';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
@@ -15,8 +15,8 @@ const __dirname = path.dirname(__filename);
 const documentsDir = path.join(__dirname, '..', 'documents');
 
 /**
- * Ingest all .txt files from the documents/ directory into ChromaDB.
- * Splits documents into chunks and upserts them with source metadata.
+ * Ingest all .txt files from the documents/ directory into the HNSWLib vector store.
+ * Splits documents into chunks, embeds them, and saves the index to disk.
  */
 async function ingestDocuments() {
   logger.info('Starting document ingestion...');
@@ -41,10 +41,10 @@ async function ingestDocuments() {
     const filePath = path.join(documentsDir, file);
     logger.info(`Loading: ${file}`);
 
-    const loader = new TextLoader(filePath);
-    const rawDocs = await loader.load();
+    const text = fs.readFileSync(filePath, 'utf-8');
+    const rawDoc = new Document({ pageContent: text, metadata: { source: file } });
 
-    const chunks = await splitter.splitDocuments(rawDocs);
+    const chunks = await splitter.splitDocuments([rawDoc]);
 
     for (const chunk of chunks) {
       chunk.metadata = { ...chunk.metadata, source: file };
@@ -56,20 +56,13 @@ async function ingestDocuments() {
 
   logger.info(`Total chunks to ingest: ${allDocs.length}`);
 
-  const embeddings = new OpenAIEmbeddings({
-    modelName: 'text-embedding-3-small',
-    openAIApiKey: process.env.OPENAI_API_KEY
-  });
+  const embeddings = getEmbeddings();
+  const vectorStore = await HNSWLib.fromDocuments(allDocs, embeddings);
 
-  await Chroma.fromDocuments(allDocs, embeddings, {
-    collectionName: process.env.COLLECTION_NAME || 'agent_documents',
-    url: 'http://localhost:8000',
-    collectionMetadata: {
-      'hnsw:space': 'cosine'
-    }
-  });
+  const storePath = getVectorStorePath();
+  await vectorStore.save(storePath);
 
-  logger.info(`Successfully ingested ${allDocs.length} chunks into ChromaDB.`);
+  logger.info(`Successfully ingested ${allDocs.length} chunks and saved to ${storePath}.`);
 }
 
 ingestDocuments().catch((error) => {
