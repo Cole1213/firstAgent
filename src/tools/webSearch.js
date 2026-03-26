@@ -28,30 +28,34 @@ export function createWebSearchTool() {
       const startTime = Date.now();
       try {
         const tavily = getTavily();
-        const rawResults = await tavily.invoke(input);
+        const rawResults = await tavily.invoke({ query: input });
         const latencyMs = Date.now() - startTime;
 
-        let results;
+        let resultItems = [];
         if (typeof rawResults === 'string') {
           try {
-            results = JSON.parse(rawResults);
+            const parsed = JSON.parse(rawResults);
+            resultItems = Array.isArray(parsed) ? parsed : (parsed.results || []);
           } catch {
-            results = rawResults;
+            logToolCall('web_search', input, 'raw string result', latencyMs);
+            return rawResults;
           }
-        } else {
-          results = rawResults;
+        } else if (Array.isArray(rawResults)) {
+          resultItems = rawResults;
+        } else if (rawResults && typeof rawResults === 'object') {
+          resultItems = rawResults.results || [];
         }
 
         let formatted;
-        if (Array.isArray(results)) {
-          formatted = results
+        if (resultItems.length > 0) {
+          formatted = resultItems
             .map((r, i) => `Result ${i + 1}: ${r.title || 'No title'}\nURL: ${r.url || 'N/A'}\n${r.content || r.snippet || ''}`)
             .join('\n\n');
         } else {
-          formatted = String(results);
+          formatted = 'No results found for this query.';
         }
 
-        logToolCall('web_search', input, `${Array.isArray(results) ? results.length : 0} results returned`, latencyMs);
+        logToolCall('web_search', input, `${resultItems.length} results returned`, latencyMs);
         return formatted;
       } catch (error) {
         const latencyMs = Date.now() - startTime;

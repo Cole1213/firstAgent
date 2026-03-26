@@ -144,7 +144,7 @@ export async function streamAgent(input, sessionId, onToken, onStep) {
         }
       }
 
-      if (stepName === 'model' && stepContent?.messages) {
+      if (stepContent?.messages) {
         for (const msg of stepContent.messages) {
           if (msg.tool_calls && msg.tool_calls.length > 0) {
             for (const tc of msg.tool_calls) {
@@ -165,15 +165,17 @@ export async function streamAgent(input, sessionId, onToken, onStep) {
 
     if (mode === 'messages') {
       const [token, metadata] = Array.isArray(chunk) ? chunk : [chunk, {}];
-      const nodeName = metadata?.langgraph_node;
 
-      if (nodeName === 'model' && token?.contentBlocks) {
+      if (token?.contentBlocks && token.contentBlocks.length > 0) {
         for (const block of token.contentBlocks) {
           if (block.type === 'text' && block.text) {
             fullOutput += block.text;
             if (onToken) onToken(block.text);
           }
         }
+      } else if (typeof token?.content === 'string' && token.content) {
+        fullOutput += token.content;
+        if (onToken) onToken(token.content);
       }
     }
   }
