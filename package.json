@@ -1,0 +1,32 @@
+{
+  "name": "multi-tool-ai-agent",
+  "version": "1.0.0",
+  "description": "A Multi-Tool AI Chatbot Agent using LangChain.js with the ReAct pattern",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "ingest": "node src/ingestDocuments.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "langchain",
+    "ai-agent",
+    "react-pattern",
+    "openai",
+    "chromadb"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/community": "^1.1.25",
+    "@langchain/core": "^1.1.36",
+    "@langchain/openai": "^1.3.1",
+    "@langchain/tavily": "^1.2.0",
+    "chromadb": "^3.4.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "langchain": "^1.2.37",
+    "mathjs": "^15.1.1",
+    "winston": "^3.19.0"
+  }
+}

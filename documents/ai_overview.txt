@@ -1,0 +1,13 @@
+Artificial Intelligence: A Comprehensive Overview
+
+Artificial intelligence (AI) is a branch of computer science focused on building systems capable of performing tasks that typically require human intelligence. These tasks include visual perception, speech recognition, decision-making, language translation, and problem solving. The field was formally founded in 1956 at a workshop held at Dartmouth College, where researchers John McCarthy, Marvin Minsky, Allen Newell, and Herbert A. Simon laid out the ambition of creating machines that could "think."
+
+The history of AI is marked by alternating periods of optimism and disappointment, often called "AI winters." Early symbolic AI systems relied on hand-crafted rules and logic to represent knowledge. Expert systems, which flourished in the 1980s, encoded domain-specific knowledge into production rules but struggled with brittleness and the difficulty of knowledge acquisition. The resurgence of AI in the 2010s was fueled by three converging forces: the availability of massive datasets, advances in GPU hardware, and breakthroughs in deep learning algorithms.
+
+Machine Learning (ML) is the most prominent subfield of AI today. Rather than being explicitly programmed, ML systems learn patterns from data. Supervised learning trains models on labeled examples, unsupervised learning discovers hidden structure in unlabeled data, and reinforcement learning teaches agents to make sequential decisions by maximizing a reward signal. Popular ML frameworks include TensorFlow, PyTorch, and scikit-learn.
+
+Natural Language Processing (NLP) deals with the interaction between computers and human language. Modern NLP is dominated by transformer-based models such as BERT, GPT, and T5. These models are pre-trained on vast text corpora and then fine-tuned for downstream tasks like sentiment analysis, question answering, and text summarization. Large language models (LLMs) like GPT-4 have demonstrated emergent capabilities in reasoning, code generation, and multi-step problem solving.
+
+Computer Vision enables machines to interpret and understand visual information from the world. Convolutional neural networks (CNNs) revolutionized image classification in 2012 when AlexNet won the ImageNet competition. Today, vision transformers (ViTs) and multi-modal models can process images and text simultaneously, enabling applications like image captioning, visual question answering, and autonomous driving perception systems.
+
+AI continues to evolve rapidly, with active research in areas such as multi-modal learning, AI safety, reinforcement learning from human feedback (RLHF), and agentic AI systems that can plan and use tools autonomously.

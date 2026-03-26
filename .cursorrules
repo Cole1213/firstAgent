@@ -1,0 +1,29 @@
+# Cursor Rules for Multi-Tool AI Agent
+
+## Code Style
+- Use ES modules (import/export) throughout
+- Async/await over callbacks or raw Promises
+- Descriptive variable names; no abbreviations
+- Add JSDoc comments to all exported functions
+
+## Architecture Rules
+- All tool definitions go in src/tools/
+- Never put API keys in code; always use process.env
+- Every tool call MUST be logged with winston (tool name, input args, result summary)
+- The agent must never expose raw stack traces to the UI
+
+## LangChain Conventions
+- Use createReactAgent from langchain/agents
+- Memory: BufferWindowMemory with k=10
+- All tools must extend DynamicTool or StructuredTool
+- Tool descriptions must be specific enough for the LLM to choose correctly
+
+## Documentation
+- Update changelog.md with every meaningful change
+- Keep roadmap.md checkboxes current
+- context.md must always reflect the current state of the project
+
+## Git
+- .env is always gitignored
+- node_modules, chroma_db/, *.log are gitignored
+- Do NOT gitignore: .cursorrules, ai/, aiDocs/, CLAUDE.md, .cursor/

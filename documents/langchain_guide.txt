@@ -1,0 +1,15 @@
+LangChain Framework: A Developer's Guide
+
+LangChain is an open-source framework designed to simplify the development of applications powered by large language models (LLMs). Originally created by Harrison Chase and released in October 2022, LangChain provides a standardized interface for chaining together LLM calls, tools, memory, and data retrieval components into cohesive applications.
+
+At its core, LangChain is built around several key abstractions. Models represent the LLM backends — such as OpenAI's GPT-4, Anthropic's Claude, or open-source models like LLaMA. LangChain provides a unified interface so developers can swap between model providers without rewriting application logic. Prompts are managed through PromptTemplate objects that support variable interpolation, few-shot examples, and system messages.
+
+Chains are sequences of operations that process input and produce output. A simple chain might take user input, format it into a prompt, send it to an LLM, and parse the response. More complex chains can branch, loop, or delegate to sub-chains. The LangChain Expression Language (LCEL) provides a declarative pipe syntax for composing chains, making it easy to build sophisticated workflows.
+
+Tools are external capabilities that an LLM can invoke. Examples include web search APIs, calculators, database connectors, and code interpreters. Each tool has a name, a description (which the LLM reads to decide when to use it), and a function that executes the action. Well-written tool descriptions are critical — the LLM uses them to decide which tool to call and what arguments to pass.
+
+Agents are the most powerful abstraction in LangChain. An agent uses an LLM as a reasoning engine to decide which actions to take. Given a user query, the agent reasons about the problem, selects a tool, observes the result, and iterates until it can produce a final answer. The ReAct pattern (Reasoning + Acting) is the most popular agent architecture, and LangChain implements it through the createReactAgent function.
+
+Memory allows LangChain applications to maintain state across interactions. BufferMemory stores the full conversation history, BufferWindowMemory keeps only the last k exchanges, and more advanced options like ConversationSummaryMemory compress older messages into summaries. Memory is essential for multi-turn conversations where context from earlier messages informs later responses.
+
+LangChain is available in both Python and JavaScript (LangChain.js). The JavaScript version is particularly well-suited for building web applications and serverless functions with Node.js or Deno runtimes. Both versions share the same conceptual architecture, making it easy to transfer knowledge between the two ecosystems.

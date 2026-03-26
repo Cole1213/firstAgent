@@ -1,0 +1,15 @@
+Vector Databases: Powering Modern AI Applications
+
+Vector databases are specialized data stores designed to index and search high-dimensional vector embeddings efficiently. Unlike traditional relational databases that operate on structured rows and columns, vector databases work with dense numerical representations of data — typically arrays of floating-point numbers with hundreds or thousands of dimensions.
+
+Embeddings are the foundation of vector databases. An embedding model transforms unstructured data — such as text, images, or audio — into a fixed-length vector that captures the semantic meaning of the content. For example, the sentence "The cat sat on the mat" might be represented as a 1536-dimensional vector by OpenAI's text-embedding-3-small model. Sentences with similar meanings will have vectors that are close together in the high-dimensional space, even if they use different words.
+
+Similarity search is the core operation of a vector database. Given a query vector, the database finds the k most similar vectors in the collection. Distance metrics used include cosine similarity (measuring the angle between vectors), Euclidean distance (measuring straight-line distance), and dot product (measuring alignment). Cosine similarity is the most common choice for text embeddings because it is invariant to vector magnitude, focusing purely on directional similarity.
+
+Approximate Nearest Neighbor (ANN) algorithms make large-scale similarity search feasible. Exact nearest neighbor search scales linearly with the number of vectors, which becomes prohibitive for millions of documents. ANN algorithms like HNSW (Hierarchical Navigable Small World), IVF (Inverted File Index), and Product Quantization trade a small amount of accuracy for dramatic speed improvements, often achieving sub-millisecond query times.
+
+Popular vector database solutions include ChromaDB, Pinecone, Weaviate, Milvus, and Qdrant. ChromaDB is an open-source, lightweight option that is especially popular for prototyping and local development. It can run as an embedded database or as a standalone server, supports persistent storage, and integrates natively with LangChain and other AI frameworks.
+
+The most prominent use case for vector databases in AI is Retrieval-Augmented Generation (RAG). In a RAG pipeline, a user's question is first converted into an embedding, then used to retrieve the most relevant document chunks from the vector store. These chunks are injected into the LLM's prompt as context, allowing the model to generate answers grounded in specific source material rather than relying solely on its training data. RAG significantly reduces hallucination and enables LLMs to access private or up-to-date information that was not part of their training corpus.
+
+Other use cases include semantic search engines, recommendation systems, duplicate detection, image similarity search, and anomaly detection in time-series data.

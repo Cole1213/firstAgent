@@ -1,0 +1,26 @@
+The ReAct Pattern: Reasoning and Acting with Language Models
+
+ReAct (Reasoning + Acting) is a prompting paradigm introduced by Yao et al. in their 2022 paper "ReAct: Synergizing Reasoning and Acting in Language Models." It addresses a fundamental limitation of standard LLM prompting: language models can either reason about a problem (chain-of-thought) or take actions (tool use), but doing both together produces significantly better results.
+
+In the ReAct pattern, the language model alternates between three phases: Thought, Action, and Observation. During the Thought phase, the model reasons about the current state of the problem and plans its next step. In the Action phase, the model selects and invokes a tool with specific input. The Observation phase presents the tool's output back to the model, which then uses this new information to generate the next Thought.
+
+Here is a concrete example of a ReAct trace:
+
+User: What is the population of the capital of France?
+
+Thought: I need to find the capital of France first, then look up its population.
+Action: web_search("capital of France")
+Observation: The capital of France is Paris.
+
+Thought: Now I know the capital is Paris. I need to find its population.
+Action: web_search("population of Paris 2024")
+Observation: The population of Paris is approximately 2.1 million in the city proper and 12.3 million in the metropolitan area.
+
+Thought: I now have enough information to answer the question.
+Final Answer: The capital of France is Paris. Its population is approximately 2.1 million in the city proper and about 12.3 million in the greater metropolitan area.
+
+The ReAct pattern offers several advantages over pure chain-of-thought or pure tool-use approaches. First, it makes the reasoning process transparent and interpretable — each step is explicitly articulated. Second, it grounds the model's reasoning in real data retrieved through tools, reducing hallucinations. Third, the iterative thought-action-observation loop allows the model to recover from errors, refine its search strategy, and handle multi-step problems.
+
+In the LangChain framework, the ReAct pattern is implemented through the createReactAgent function combined with an AgentExecutor. The developer provides a list of tools, a language model, and an optional prompt template. The AgentExecutor manages the loop: it passes the conversation to the LLM, parses the LLM's output for tool calls, executes the tools, feeds observations back, and repeats until the LLM produces a final answer.
+
+Common pitfalls when implementing ReAct agents include writing vague tool descriptions (causing the LLM to choose the wrong tool), not handling tool errors gracefully (causing the agent loop to crash), and allowing too many iterations (risking infinite loops or excessive API costs). Best practices include setting a maximum iteration limit, implementing error boundaries in every tool, and writing highly specific tool descriptions that help the LLM distinguish between similar tools.
