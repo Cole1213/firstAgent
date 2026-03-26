@@ -1,0 +1,168 @@
+Course Information
+Class Info
+ECON 110 Section 002
+TTh 9:30am - 10:45am
+Location: 140 JSB
+This course is an introduction to economics, a social science that studies how people make choices under conditions of scarcity.  Microeconomics focuses on the decisions of individual consumers and firms. Macroeconomics analyzes the aggregate effect of all the individual decisions being made throughout an economy.  This course will teach you fundamental concepts and methods in both branches of economics, enabling you to perform simple yet insightful analysis of economic behavior.
+
+Basic algebra skills are assumed. In addition, skill with graphs is extremely helpful. The appendix to chapter 2 provides a brief review of graphing concepts.
+
+“In general, the expectation for undergraduate courses is three hours of work per week per credit hour for the average student who is appropriately prepared; much more time may be required to achieve excellence.” (BYU 2022-23 Undergraduate Catalog). Since Econ 110 is a three-credit class, students should plan to spend at least six productive hours outside of class each week to comfortably earn a B.  Students seeking an A will typically need to put in additional time.
+
+Refer to http://booklist.byu.edu, as well as a highly-regarded news source. Economics is highly relevant in understanding current events, which is the basis for several essays you will write this semester.  To prepare for these assignments, you should read daily from reputable new reports — and typically any reporting of value will require a subscription to access.  These three options are my favorites and are $15-45 for the semester, but you can use any other respected national newspaper or news magazine.
+
+The Wall Street Journal http://r.wsj.net/lLJ3g
+
+The Economist https://subscribenow.economist.com/student
+
+The New York Times https://www.nytimes.com/subscription
+
+Library access The library has free access to these and other periodicals, although it is not as easy to browse new stories.  https://guides.lib.byu.edu/economics/currentevents
+
+I will expect you to read the assigned Mankiw chapter before the lecture on a given subject, as indicated in the Learning Suite schedule.  By doing so, you enable the class to spend more time discussing and clarifying the issues rather than trudging through long lectures.  As you read, focus on the major concepts and issues; if anything is unclear, plan to ask for clarification in class.  This familiarity with the material will make our lectures much more productive and educational for you.  This reading is essential to your success in the course, so choose whatever textbook option will encourage you to read.
+
+Mankiw’s publisher offers a companion website (MindTap), but it is not required for the course.  It does offer additional practice and video walk-throughs of problem solving.  However, the best study material is to practice my past exam questions, which are used on Learning Suite quizzes.
+
+ 
+
+To encourage attendance and immediate engagement with lecture topics, I will pose 5-10 questions during each lecture that must be answered in class via iClicker. To receive credit for participation in a given lecture, you must answer at least half of the questions that day.  While incorrect answers are not penalized, please thoughtfully answer the questions, as it will influence how we spend our lecture time.
+
+In order to receive credit for participation, please register your remote at https://join.iclicker.com/BZNP as soon as possible. You will be prompted to create a free account (or sign in if you already have one), and then your remote ID will be linked to our class. The remote ID is the series of numbers and/or letters found on the bottom of the back of your iClicker remote. If this serial number has worn off, take your clicker to the third floor of the bookstore; they can help you look it up. If your registration isn’t completed, I won’t be able to connect you to your remote; but once you do, I will give credit for all your clicks in the semester.
+
+There is no makeup for missed iClicker questions for any reason, but to accommodate technical hiccups, anyone who misses 4 or fewer lectures will earn full credit.  Note that entering poll responses for another student or providing the Join Code to someone not present is a ridiculous violation of academic integrity.
+
+While these in-class polls will be beneficial as learning checks, the device you use for them introduces a significant risk. Your devices want your attention; tech producers only get money in proportion to eyeballs on their screens.  You need to intentionally deny them your eyeballs during our lecture! Even short distractions to check a message can make you lose the thought process we are teaching, and you will not even realize what you missed. Resist the urge to check any other apps during lecture, and put all devices in “Do Not Disturb” mode. In fact, google “schedule do not disturb” for instructions on how to automate this.
+
+In my experience, note-taking is best accomplished on paper, though tablets or touch-screen computers are permitted.  Much of the analysis you will learn to do requires drawing graphs and work through math, which means a traditional laptop will be highly ineffective.
+
+I will record lectures and post them to Learning Suite, though the audio/video quality in the large room is not always ideal. This is intended only as a supplement for review, not as a replacement for attendance or for effective in-class note taking. 
+
+You should make every effort to attend every lecture.  In two decades of teaching Economics Principles courses, I have found that students who miss more than a couple lectures rarely perform well in the class, even when they have access to videos of the lecture.  If you miss a lecture for any reason, you should read the associated chapter in the textbook, actively take notes from the video, and discuss these notes with a classmate.
+
+It is often easy to catch the intuition behind economic theory, and this sometimes makes students feel that, because they can nod their head in class, they will do well on the test.  To avoid unpleasant surprises on exam days, there is only one solution: practice real problems!
+
+To ensure that you are practicing, I assign an online quiz for every chapter, with questions drawn from my past exams. They serve two purposes: first, it keeps you working with the economic tools every week, even when the next midterm is several weeks away.  Second, it provides us with frequent feedback as to where you are having troubles, so that these issues can be clarified before the exam.
+
+Each online assignment counts equally towards your grade (roughly 1%), regardless of the number of questions asked.  The lowest three scores will be dropped.  All assignments and handouts will appear on the Learning Suite schedule, so check it regularly.
+
+The problem sets have a firm due date.  In other words, assignments must be completed on time; there will be absolutely no “make up” for late submissions.  The software does not understand excuses.  This includes if your Internet connection suddenly shuts down just before the due date. Do your assignments early to keep last minute emergencies from getting in your way.  Otherwise, the assignment will have to be dropped as one of your lowest scores.
+
+The assignments may be retaken as many times as the student wishes before the deadline.  Each attempt will draw a new random selection of questions (all of which must be completed again).  Only the highest score is counted.  Please review the feedback in between attempts, which will demonstrate the economic thinking needed to answer the problem.  The same questions are available for practice (not affecting your grade) after the graded quiz deadline.
+
+During the quizzes, you are allowed to consult notes or the textbook, and may also discuss issues with classmates (whose questions may differ).  However, copying of answers is a violation of academic integrity.  Your quiz should reflect your understanding of the concepts at the time of submission, not your ability to copy someone else.
+
+Take extreme caution in using ChatGPT or similar programs in completing homework. Artificial Intelligence is essentially pattern recognition, but not actual logical reasoning that we expect of Econ 110 students. When I asked it to complete my Fall 2024 final exam, it earned a 62%. More dangerously, it will always give you a confident answer, even when it is totally wrong.  Perhaps a better use would be to ask ChatGPT to explain a concept, or to reason through a question after you have attempted it, so that you have a base of knowledge on which to build.  My advice (in and out of this course) is to never use artificial intelligence if you lack the knowledge to evaluate its accuracy.
+
+During the semester, you should regularly read major national newspapers (Wall Street Journal, New York Times, Washington Post, etc.) or The Economist magazine regularly. From this reading, you will find a relevant news article to illustrates economic principles that we have discussed, illustrating how economic tools can help us understand what you have read.
+
+
+Your analysis will be submitted via Digital Dialog, where you will also be expected to read and comment on at least one classmate’s post in your assigned group. Grades will be based on completion of both the post and the comment.  These will be four essays total; the lowest score of these will be dropped.  Each is worth 1% of your grade.
+
+
+Late written assignments will not be accepted under any circumstance.  Essays are submitted via Learning Suite, so the deadline is judged based on that time stamp; emailed assignments will not be graded.  Instead, you may submit the late assignment in place of a later post.
+
+
+You should not use ChatGPT or similar AI programs on these assignments.  Honestly, it would be overkill for a short assignment where you get credit based on good-faith effort. More importantly, your classmates and I are interested in your unique perspective, not the output of an impersonal algorithm.
+ 
+
+All exams will be held in the Testing Center, with all questions being multiple choice (roughly 33 on each midterm).  You will be allowed a (non-phone) calculator; all other books, notes, websites, apps, or phones are prohibited. No cooperation is allowed during the tests, and any attempts of dishonesty will be punished with as much severity as the University permits.
+
+There will be no early or make-up exams for any reason, including the final exam. Students can take the exam any time during the scheduled days (though the Testing Center charges $5 on the last day of each exam); I encourage preparing to take it early to give yourself the most flexibility for the unexpected. Otherwise, a missed midterm will simply be dropped as the lowest midterm score.  Student athletes and others with conflicts due to University-sanctioned events should inform me in the first week of class so as to make arrangements.
+
+Midterm 1
+
+  Midterm 2
+
+Midterm 3
+
+Final Exam
+
+Sep 25th to 30th
+
+Oct 23rd to 28th
+
+Nov 20th to 25th
+
+Dec 12th to 17th
+
+A comprehensive gradebook will be kept on Learning Suite.  I will import iClicker participation after each exam.   Letter grades will be assigned based on the percentage score using the typical scale (e.g. cutoffs for A/A- at 92.0, A-/B+ at 90.0, B+/B at 88.0, etc). Any curve will be applied at the end of the course (not to each exam) and will only lower these cutoffs.
+
+If you disagree with the grading of an assignment or exam, you may email it for my review with a written argument for why you should be awarded more points.  Also, you must submit these disputes within two weeks of having received the graded assignment or test, or the grade is final.
+
+Assignments
+
+Points
+
+Participation in iClicker questions (Drop 4 days)
+
+7
+
+Written Assignments (Drop 1 lowest score)
+
+3
+
+Online Quizzes (Drop 3 lowest % scores)
+
+17
+
+Midterm Exams (Drop 1 lowest score)
+
+40
+
+Final Exam
+
+33
+
+Total Points
+
+100
+
+My only offer of extra credit is that students who scored less than 80% on a midterm can recover some missed points by writing up an explanation for the correct answer for each problem you missed. You are allowed to discuss the writeup with classmates or TAs, but each student needs to write up their explanations by hand, individually.  This will raise the grade from S to (80+S)/2 if submitted to Learning Suite under Midterm Reinforcement within two weeks of the exam. In practice, students who have completed their assignments and reinforced their exams have always passed the course.
+
+If you are struggling with any portion of the course, please seek assistance.  We will only know to help you if you ask.  The teaching assistants and I are eager to help.
+
+The Economics Lab in B090 JFSB is your primary source of help.  You can always seek individual assistance in the Lab, beginning the 2nd week of class.  A detailed schedule will be provided, but the lab is usually available most afternoons. Your TAs will be invaluable resources, especially with the following expectations:
+
+1. Please direct concerns about grading or the course to me, not your TA.
+
+2. Read the syllabus carefully; almost all procedural questions are answered here.
+
+3. Save your scratch work.  If something goes wrong, it will help your TA detect where your reasoning went astray.
+
+4. Do not ask your TA to verify answers or work out homework before submission. Instead, they can explain the process and demonstrate on similar problems.
+
+5. Labs are the best means of seeking TA help.  Email is not as effective for demonstrating the needed thought process. 
+
+Students are also welcome during my office hours (without needing an appointment), where I will rotate through their questions, taking one question from each person.  If your schedule prevents attending my office hours and talking to the TAs has not resolved the problem, contact me to set up a different time.
+
+Any students requiring accommodations through the University Accessibility Center must discuss this with me (by email or in office hours) well before they are needed for an assignment or exam. 
+
+I expect all students to fulfill their commitment to live by the honor code.  (View the full policy at honorcode.byu.edu.)  In the context of our classroom, I ask the following:
+
+Be considerate to your classmates.  Never get in the way of another student’s learning.  If you text, surf the internet, or scroll through apps during class, you will be a distraction to your neighbors (and won’t be benefiting from the lecture yourself).  If that is what you would rather be doing, please skip lecture.  Similarly, immodest clothing or smelly foods can distract others.
+Never take credit for someone else’s work.  A study group can be very useful, as you will be able to learn from and teach to other members of your group.  However, you should never simply take answers from a classmate and turn it in as if it were your own. If you solve a problem jointly, the dividing line is simple:  you should be able to look away from the group notes and reproduce the solution on your own.  If you cannot do this, you have learned nothing from the exercise, and are giving yourself a false sense of security about your understanding of the material. If you are honest with yourself, it will always be clear when you are just discussing the work versus when you are plagiarizing.  If the latter occurs, both the person who copied the answers and the person who provided them will be punished.
+Preserve the integrity of exams.  Because exams are given in the testing center, some students will end up taking the exam before others.  It is dishonest to ask such a student for information about material on the exam, and it is dishonest to provide such information.  To be safe, do not discuss the exam with anyone until after it is no longer available.
+Accept responsibility for your actions.  I respect my students as adults; but that means you must take responsibility as adults.  If you forgot to complete an assignment or quiz for any reason, do not expect a special exception to the rules established here.  This document is, in effect, a contract between me and each student, and I promise to fulfill my side of the contract.  By remaining enrolled in the class, you are agreeing to your side of the contract.
+Economic costs and benefits
+Students will compute measurements of costs (e.g. opportunity costs, marginal cost) and benefits (e.g. marginal utility, revenue), and use them to evaluate economic decisions.
+
+Equilibrium analysis
+Students will analyze market responses to changing environments using models of production possibilities, supply and demand, perfect competition, monopoly, and aggregate supply and demand.
+
+Measures of wellbeing
+Students will compute and interpret metrics of economic wellbeing, including consumer and producer surplus, deadweight loss, gross domestic product, and the consumer price index.
+
+Efficiency
+Students will compute measures of economic efficiency and demonstrate why perfectly competitive markets deliver efficient outcomes.
+
+Interventions
+Students will identify inefficiencies that arise with market imperfections and analyze the effect of government interventions.
+
+Institutions
+Students will interpret economic statistics and write effectively about economic terms and institutions, practicing to participate thoughtfully in civic discourse.
+
+Economic analysis
+Students will practice positive analysis of models (stating assumptions, deriving logical implications, and confronting those with evidence) to reason objectively about public policy, preparing for lifelong service and civic engagement.
+
+Spiritual applications
+Students will explore spiritual insights from economic reasoning while also identifying contrasts between self-interested behavior and Christ-centered discipleship.

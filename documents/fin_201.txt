@@ -1,0 +1,512 @@
+Page 1 of 10
+Marriott School of Business, Brigham Young University, Department of Finance
+Principles of Finance (FIN 201), Winter 2026
+Section 3 Blended On-demand remote and
+optional in-person help labs
+
+Instructor: Jim Brau, PhD, CFA, CFP® Email: jbrau@byu.edu
+Office: 620 TNRB Home Page: http://jimbrau.com
+Cell: 801.318.7919 Office Hours: By appointment
+Class Objective: To love the Lord our God with all our heart and with all our soul and with all our mind, and to love our
+neighbor as ourselves.
+Class Scripture: 2 Nephi 25:26: “And we talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ...”
+Class Thought: “Those things which provide deep and lasting happiness and gratitude are the things which money cannot
+buy: our families, the gospel, good friends, our health, our abilities, the love we receive from those around
+us.” – President Thomas S. Monson, Oct 2010 General Conference.
+Former BYU President: “Education is not an easy enterprise. It is profoundly unsettling.” Pres. Oaks, 1971 BYU address
+Class Quote: “The world ain’t all sunshine and rainbows. It’s a very, very mean and nasty place, and I don’t care how
+tough you are, it will beat you to your knees and keep you there permanently if you let it. You, me, or
+nobody is gonna hit as hard as life. But it ain’t about how hard you hit, it’s about how hard you can get
+hit and keep moving forward. How much you can take and keep moving forward. That’s how winning is
+done.” –Rocky Balboa. Consider Elder Orson F. Whitney’s counsel about the purpose of trials: “No pain
+that we suffer, no trial that we experience is wasted. It ministers to our education, to the development of
+such qualities as patience, faith, fortitude and humility. All that we suffer and all that we endure, especially
+when we endure it patiently, builds up our characters, purifies our hearts, expands our souls, and makes us
+more tender and charitable, more worthy to be called the children of God … and it is through sorrow and
+suffering, toil and tribulation, that we gain the education that we come here to acquire and which will make
+us more like our Father and Mother in heaven” (in Spencer W. Kimball, Faith Precedes the
+Miracle[1972], 98).
+Education Philosophy: Education is what remains after one has forgotten what one has learned in school" - often attributed to
+Albert Einstein
+1st Finance Lesson: Mere Christianity by C.S. Lewis, Chapter 8: “Good and evil both increase at compound interest. That is
+why the little decisions you and I make every day are of such infinite importance. The smallest good act
+today is the capture of a strategic point from which, a few months later, you may be able to go on to
+victories you never dreamed of. An apparently trivial indulgence in lust or anger today is the loss of a ridge
+or railway line or bridgehead from which the enemy may launch an attack otherwise impossible.”
+True Wealth: “You may surround any man or woman with all the wealth and glory that the imagination of man can
+grasp, and are they satisfied? No. There is still an aching void. On the other hand, show me a beggar upon
+the streets, who has the Holy Ghost, whose mind is filled with that Spirit and power, and I will show you a
+person who has peace of mind, who possesses true riches, and those enjoyments that no man can obtain
+from any other source” (Journal of Discourses, Vo. 2, p. 199, Wilford Woodruff, February 25, 1855).
+Class Mantra: I know not how soon the messenger will call for me, but I calculate to die in the harness. -Brigham Young
+Corollary: Be a workhorse, not a show pony. -Bro Brau
+Spiritual Thoughts: “Brother Maeser, who was a convert German schoolmaster and disciplined in the precision of his
+homeland, asked President Young for his instructions. ‘I have only these,’ President Young said. ‘You
+should not teach even the alphabet or the multiplication tables without the Spirit of God. That is all. God
+bless you. Good-bye’” - Pres. Wilkinson. As such, I will share a spiritual thought each class period. At no
+time will I ever speak for the Church, the Brethren, the University, my college, my department, the US
+Army, the Provo Police Department, the State of Utah, or any other entity. My spiritual thoughts, and even
+my professional development moments, will always be only my own thoughts and opinions.
+Page 2 of 10
+An Invitation: If at any time you have questions about the gospel or your testimony or life, I invite you to contact me. This invitation
+extends beyond the length of our class and beyond membership in the Church. I have found that some students at BYU question their
+testimonies or their purpose in life for one reason or another. As a convert myself, someone who has been a member of four religions,
+and someone who was baptized too late to serve a mission, I feel I have a somewhat unique perspective on faith. My office is a
+confidential, non-threatening, and non-judgmental environment and the lazy chair is always welcome to anyone who would like to
+chat about the most important things. If you’re considering leaving the Church when you graduate, I’d love to hear why. Discussions
+are 100% confidential and have no bearing on your grade in my class or standing at BYU.
+Teaching Assistants:
+Lead TAs: Aaron Luekenga, Cooper Meldrum
+TA Team: Abby McDougal, Avery Porter, Ben Garrett, Caden Fund, Cameron Chao, Carson Galovan, Clayton Guo,
+Daniel Bayles, Ephraim Drennan, Hannah Siu, Kaitlyn Stout, Loralyn Palmer, Luke McCoy, Nate Hess,
+Parker Ward, Shannon Siu, Tate Christiansen
+*Our TAs do not work on Sunday. Please do not contact them or expect replies on Sunday. If you have an emergency on
+Sunday you need to inform me of, email me directly.
+VISION: We aspire to transform the world through Christlike leadership.
+MISSION: We develop leaders of faith, intellect, and character.
+VALUES:
+Faith in Christ
+We value deep and abiding faith in Jesus Christ. Our faith gives us the capacity to envision a better future, the confidence to make that
+future happen, and the courage to act in the face of challenges.
+Integrity in Action
+We value integrity and hold ourselves to the highest moral and ethical standards. Acting with integrity builds trust, strengthens
+character, and focuses our ambitions on things of eternal consequence.
+Respect for All
+We value respect for all individuals as children of God and recognize the inherent worth, divine potential, and agency of each person.
+A climate of respect and belonging enhances our learning, facilitates collaboration, and encourages personal growth.
+Excellence
+We value excellence in learning, teaching, research, management, and leadership. An expectation of excellence magnifies our
+influence and motivates us to continually improve.
+GUIDING PRINCIPLE
+Centered on Students
+We evaluate our decisions and actions by the impact they will have on the academic experience, professional preparation, character
+development, emotional well-being, and spiritual growth of our students.
+Materials
+1. Textbook: No hard-copy textbook is required for this course. However, students will be required to purchase online course
+materials from MyEducator (ME) that include videos, assessment tools (in-text practice quizzes), readings, and other
+activities.
+To join the Principles of Finance (FIN 201) course, please follow these instructions:
+Click on the following link: https://app.myeducator.com/s/3LeTLkVE401/.
+• You will be brought to the Shopping Cart page where you will need to click on the "Checkout" button.
+• After checking out, you will need to create a MyEducator account if you do not already have one. This account provides
+you with technical support should you need any assistance using the book features during the course, and this adds your
+email to the class email list. Please use the email address you want to receive correspondence pertaining to this course.
+Please also make sure you enter your BYU Net ID (NOT your student ID number) when prompted. We need this data
+to transfer your grades to our gradebook. If you do not correctly enter your Net ID, you will receive zero credit for the
+quizzes.
+• Finally, you will be taken to the payment page where you can purchase the courseware. Once you have filled out the
+required fields of text, click the "Pay Now" button. Once this step is complete, you will be admitted to the course.
+Everyone must purchase their own product to complete course quizzes.
+Page 3 of 10
+• If you are retaking a course and have already bought a book, you can add yourself to the new course simply by
+clicking on the new sign-up link above. Go through the normal purchase process with the same email/login you used
+last time and it should charge you zero dollars to enroll. You do not need to pay another fee or wait on support to access
+the new material.
+In order to receive credit for this class, students must score over a 90% on a syllabus quiz in MyEducator within the
+first two weeks of class. You can take it as many times as you like.
+If you have any questions or concerns with the sign-up process, don't hesitate to send an email
+to support@myeducator.com. They are very responsive.
+2. Calculator: You will need a calculator that can compute time value of money (should have PV, FV, I/Y, N, PMT capability)
+and uneven cash flows (should have NPV and IRR capability). If you already have a TI-83, TI-83+, TI-84, TI-89, HP-48G,
+TI-BA-II+, HP-10BII, or HP-12C, your calculator already has these functions, or you can download them from the web or
+program them. If you do not have a calculator that can do these functions, you need to purchase one. The text we use has key
+strokes (instructions) for the TI-83-84/+, TI-BA-II+, and the HP-10BII. If you need to buy a calculator, I recommend the TIBA II+ as this is the best one for the CFA exam in my opinion (and one of the cheapest options). I will use a TI-83+/84+ and
+a TI-BA II+ in my class demonstrations. You may not use your iPhones, cell phones, laptops, TI-Nspires, or other similar
+electronic devices on exams.
+3. We will use LearningSuite as our learning platform. LearningSuite will be unpublished the last day of final exams. Please
+have everything downloaded from the site you want to keep from the class (e.g., drill problems, syllabus, etc.) as it will not
+be turned back on.
+Learning Objectives
+Students will learn to apply financial management models from the viewpoint of the business manager. Specifically, students will:
+1. understand how financial statements are used by financial managers/analysts,
+2. utilize DuPont and free cash flow measures,
+3. construct a financial forecast for a firm,
+4. employ time value of money/discounted cash flows to solve common financial problems,
+5. value bonds and stocks,
+6. measure risk and how it correlates with return,
+7. compute after-tax cash flows for capital budgeting projects,
+8. make corporate investment decisions using capital budgeting,
+9. compute the cost of capital for a firm,ca
+10. value a firm, and
+11. learn personal finance key topics.
+Learning Objective Assessment
+The learning objectives will be assessed using topic quizzes and three examinations. All quizzes are open book and open note, but closed
+internet/neighbor/friends/family. These quizzes will help prepare you for the course exams. Please work through the “Suggested
+Problems” found in the e-book before taking the quizzes. The exams will all be administered online using Proctorio, an electronically
+proctored system. These exams will be closed everything and completely multiple choice. Questions are specifically formulated to assess
+whether you have mastered each learning objective or not.
+Why I think this class is important
+In this class, you will be exposed to some financial theory; however, the primary focus of the class is on applying technical skills:
+financial models and their application to real life. I will do my best to teach you the skills that will help you be a successful businessperson
+with the potential and ability to support your family financially. Additionally, I will expose you to personal finance applications that are
+designed to directly apply to your lives, no matter what you do after this class. I realize most of you will not be finance majors and have
+designed this class to add value especially for you!
+I believe my class orientation significantly contributes to the mission of BYU – “to assist individuals in their quest for … eternal life.”
+An American Bar Association report stated that 89% of divorces in America could be attributed to quarrels over finance. By becoming
+more marketable as professionals and by understanding concepts to manage your personal finances, I feel this course can help you
+mitigate this large cause of divorce from your marital relationships. Additionally, for those who are single, having practical financial
+skills can eliminate a great deal of personal stress.
+Page 4 of 10
+Throughout this course, please contemplate how the material we cover correlates with the aims of BYU. These aims are that BYU will
+provide an experience that is: 1) spiritually strengthening, 2) intellectually enlarging, 3) character building, and 4) inspiring lifelong
+learning and service.
+Teaching Assistant (TA) Lab: We have a very strong TA team this semester. If you desire TA help, there are two options:
+1) In-Person Help Desk: TAs will be available to provide in-person help. A detailed schedule will be posted to LS.
+2) Zoom Help Desk: A zoom help desk schedule will be published after the semester begins.
+a. Link: https://us06web.zoom.us/j/3202916622
+b. Meeting ID: 320 291 6622
+c. Password: WORKHORSE
+3) Email Help Desk: You can email byufin201@gmail.com for virtual help. Please allow at least 24 hours for a reply and please
+do not email a TA’s personal address. If you have an urgent personal matter, email Dr. Brau directly at jbrau@byu.edu.
+Finance Society Tutors: There will be a link on LS with a Google Doc of Finance Society members who have volunteered as tutors.
+You may need to try two or three different volunteers until you find a good match. If you can tell in the first few minutes the person is
+not adding value, you do not have to stay in the session with him or her. A phone call prior to the appointment typically helps you assess
+if you will be a good fit prior to a meeting.
+MUSA Mentoring Program: The Marriott School Undergraduate Student Association (MUSA) has a mentoring program for any
+student who is interested. MUSA’s main focus is to help students "navigate the Marriott School," meaning that they help premanagement students learn about different majors and resources, such as e-recruiting, to help in their quest to find an internship. Students
+can visit undergraduate advising on the fourth floor of the Tanner Building to connect with MUSA.
+Study Groups: Study groups can help some students who learn best through group work. If you fit into this category, I encourage you
+to get together with some of your classmates if you are struggling in any dimension with the course material.
+Communication Policy: I am here to serve you. With 1,300+ students this semester, I need to rely on the class TAs to conduct most
+of the one-on-one student interaction, through personal tutoring, TA Labs, and email help. Please send all email questions to our TAs,
+unless they are personal in nature. If the TAs cannot help with a finance question, she or he will send it on to me and I will reply to
+you directly. If a situation is too personal to involve the TAs, feel free to email me directly. As per FERPA rules, I am unable to
+communicate any grade information via email.
+Office Hour Policy: I enjoy interacting with students. Office hours are designed to facilitate one-on-one interaction with students. If
+you visit the Finance Society volunteers for personal tutoring, visit the TA Lab, and work with the MUSA mentors and you feel you
+need additional help, feel free to contact me directly. Prior to coming to office hours, please have your questions well thought out and
+written down. I expect you to have put in an appropriate amount of study on your own time trying to understand the material prior to
+coming to office hours. All office hours are pre-scheduled so I can be sure to give you my undivided attention. To arrange an
+appointment, please email me. In the email, please include the questions or problems that you need extra help with. If you have personal
+issues you would like to discuss (not finance), I am happy to visit with you without you going through all the steps above. Again, please
+email so we can set up a visit.
+Class Procedures: You can work on the class anytime, anywhere before the deadlines stated below. I encourage you to have a personal
+prayer before each of your study sessions. In our brick and mortar sections, we start each class with a prayer.
+Grading Policy and Student Responsibilities
+1. The course grade will be based on each student’s performance in the following areas:
+Midterms 50%
+Final Exam 25%
+ME Quizzes 25%
+PLEASE NOTE: No exam will be reset. If you are worried about technical issues, use a BYU computer that is ethernet-wire
+connected so you won’t lose Wifi.
+This course grading consists of chapter quizzes, four midterms, and a cumulative final exam. The quizzes are due before 9am on the
+day of the first lecture of that chapter. Quizzes have no time limit. You get two attempts at each quiz to help you prepare for class
+lecture. You will see which questions you get wrong but will not see the correct solution until after the final due date. If you miss a
+quiz, it will NOT be reset. Your lowest two quizzes will drop to allow for technical issues, bad days, car wrecks, sickness, etc. All
+midterms and the final exam are closed everything – you will not be given a formula sheet on the exam. Learning the equations is an
+important part of mastering the vocabulary of finance. Each midterm has 30 multiple choice questions and has a 1.5-hour time limit.
+The final exam has 50 multiple choice questions and a 3-hour time limit. All exams are conducted online using Proctorio. There
+Page 5 of 10
+will be opportunities to complete research surveys to have your lowest midterm dropped. I will email out the surveys – they will not
+be through the BYU research lab. If you have to miss a midterm due to a university excused absence, emergency, etc., that midterm
+will be the one to drop. If you have to miss more than one midterm with university-excused absences, then the weight of the nonlowest exam(s) will be added to the final exam, making the final exam worth a larger percentage of your grade. Under no
+circumstance will you be able to take the exam at any time other than when it is offered to all students. Sorry, but with 1,400+
+students, there will be no exceptions. If you begin any of the exams, the grade will stand. If you are too sick to take an exam
+(emotionally, mentally, or physically), do not take it. If you open an exam, the score will stand under all conditions, unless it is your
+lowest exam, in which case it will drop if you do the research surveys.
+All exams will be administered online with Proctorio. Exams are mandatory. The Final Exam is cumulative and comprehensive and
+will be open all of final exam week.
+Like the Fall sections of FIN 201, I compute two class scores and award the higher of the two scores. The first is as described above.
+The second comes from the final exam alone. If you score higher on the final exam than you do on the first score, then I award that
+higher score. This means that your final exam score becomes your final grade. As you can imagine, the final exam is more rigorous
+than separate midterms as it is fully comprehensive of the entire semester.
+2. Grading Distribution: The minimum cut-off for each letter grade is outlined below. If necessary, the distribution will be curved up
+to a 3.2 mean. The 3.2 mean is to ensure equity across all 200-level Marriott School classes. Because we have so many students and
+the distribution of grades assumes a nearly continuous distribution, we cannot round at all. For example, if you earn a
+93.99999999999%, it is an A-. So make it over the hurdle! This is the distribution so if you see any other on LS, ME, or anywhere
+else, use this one:
+Grade Min % Grade Min % Grade Min %
+A 94 B- 81 D+ 68
+A- 91 C+ 78 D 64
+B+ 88 C 74 D- 61
+B 84 C- 71 E <61
+3. The BYU Honor Code will be strictly enforced. Please protect your integrity above all else. If you are caught cheating, you will
+fail this class and be reported to the BYU Honor Code Office to face possible expulsion from BYU.
+4. It is a course requirement that all students actively seek to be good citizens. Among other factors, this requires living the letter and
+intent of the honor code and the dress and grooming standards. For this course, failure to meet the citizenship requirement is
+specifically made manifest by any of the following: 1) overt gender bias, 2) overt racial bias, 3) overt bias based on any other factor
+such as religion, nation of origin, sexual orientation, gender identity, etc., 4) failure to show respect to fellow students, 5) failure to
+show respect to the instructional staff (TAs), 6) failure to show respect to the instructor, 7) failure to make a “good-faith” individual
+effort on individual assignments, and 8) any attempt to deceive or undermine the grading process. All exams are closed everything.
+No smart glasses or smart watches are allowed to be worn during exams. Students who violate the citizenship requirement will
+fail the course regardless of their performance on tests and will be reported to the honor code office. The instructor is the sole judge of
+what constitutes violations of the citizenship requirement. This is BYU; conduct yourself with integrity and you will not have to worry
+about citizenship issues.
+5. I am not the only instructor to teach FIN 201. If you do not like my class format, the testing schedule, me, or anything else about my
+class, you can drop my class and take it from one of the other professors. I have a document on LS that describes how the classes
+differ. For example, if you like graded homework, my class may not be optimal for you. Another example, we do not go over midterm
+exams after you have taken them in this class. I feel that pedagogy encourages you to learn for the test and not for real life. If this
+will be a major problem for you, please take the class from one of the other instructors.
+6. As your instructor, I feel an obligation to do my best to teach you this course material to the best of my ability. Since learning is a
+two-way street, please give me the same consideration as a student by doing your best.
+Suggestions for Success
+The following are offered as suggestions to help you achieve a grade with which you are personally satisfied on the exams to be
+administered during the semester:
+1) Create your own regular “class time” to focus on the online lectures and drill problem sets. Be attentive and take good notes.
+2) Read the assigned chapters carefully before class. Work the problems.
+3) Master the vocabulary terms (to include equations) and the problems.
+4) Form study groups early in the semester and meet with your group weekly to study and discuss lectures, assigned reading, and
+problems. If you don’t like study groups, go to TA lab if you need help.
+Page 6 of 10
+5) Stay caught up on the material so you do not have to cram for the exams. This one is huge!
+Grades: I want you to be successful and earn a high grade. I have no intention of “weeding people out” or wrecking anyone’s GPA.
+However, you will receive a failing grade if your attendance, quality of work, and/or test scores warrant such a grade. If you are
+unsatisfied with your performance, please discuss the matter with my TAs or me during the semester (after the first exam) and do not
+wait until late in the semester or until the class is over. Please realize this is a 200-level course at a very prestigious private university
+that aims to achieve the BYU mission statement which includes, “A period of intense learning.” If you have already taken a class
+like ECON 110, MATH 112, AHTG 100, or PSCI 110, then you understand the rigor of 100-level courses at BYU. As this is a 200-
+level course, it will be more rigorous than these 100-level courses. If you feel you are not ready for this type of rigor, please consider
+dropping this class until you are ready.
+DEW: If you take all four exams (or have university excused), the final exam, and complete all the quizzes (2 quiz grace), you
+have the opportunity to take an optional cumulative online final as many times as you want during finals week until you receive
+a score of 71% or higher. No matter what your weighted average equals (average can be below 71%). If you earn a 71% or
+greater on the optional online final, you are guaranteed at least a C- in this class. Our goal is to minimize the number of D, E,
+and W grades by allowing a way for everyone to demonstrate they have learned the material to a C- standard. If you think there
+is any possible way you may earn a D, E or W, I STRONGLY encourage you to take the online final until you earn at least a
+71%. The exam is proctored by Proctorio and is closed everything except a financial calculator. The online final DOES NOT
+replace your testing center final. It will however raise your overall grade of D+, D, D-, or E to a C- and hopefully help people
+not have to Withdraw from the class. Everyone can take the optional exam prior to taking the testing center final exam as extra
+practice for the testing center final if desired. The online final is a subset of what we have learned in class and may not be a good
+indicator of the score you will earn on the actual final exam. The online final has randomized questions so it will not be the same
+twice.
+Email and LS: Much of the communication for the course will be done via email via LS. It is your responsibility to regularly check
+your email account. At a minimum, your email account should be checked at least once per day (excluding Sundays).
+Syllabus Changes: The course outline that follows is subject to change. All necessary changes will be announced and discussed in
+class. You are responsible for making sure you are aware of any such changes.
+BYU Student Ratings of the Learning Experience Questions
+Because BYU considers these the critical goals for us as learners, I have adopted them as my personal goals.
+1. Explained concepts effectively: How effective was this instructor in teaching challenging concepts or skills?
+2. Well organized: How effective was this instructor in organizing the course content to enhance learning?
+3. Opportunities to get help: How effective was this instructor in helping students who indicated a need for assistance?
+4. Opportunities for student involvement: How effective was this instructor in providing meaningful opportunities and
+encouragement for you to actively participate in the learning process?
+5. Responded to students respectfully: How effective was this instructor in demonstrating respect for students and their
+opinions, questions, or concerns?
+6. What effect did this course and instructor have in helping you achieve the Aims of a BYU Education?
+a) Spiritually Strengthening
+b) Intellectually Enlarging
+c) Character Building
+d) Leading to Lifelong Learning and Service
+My Professional Mission Statement
+To build the kingdom of God by providing the best educational experience for my students in a spirit-filled environment so they may
+be better prepared to be outstanding managers and leaders throughout the world. I accomplish this emphasis through:
+• Preparing the best curriculum possible.
+• Fostering an enthusiastic environment in an inclusive classroom.
+• Ensuring the Gospel is at the core of learning.
+• Increasing the academic reputation of BYU, the Marriott School, and myself through my research agenda.
+Measures of Success
+• Student proficiency in subject material.
+• The construction and administration of outstanding classes.
+• The quality and quantity of my research.
+Assessments
+• Evaluation system for students.
+Page 7 of 10
+• Student evaluation scores for the professor (me).
+• Peer-reviewed journal articles and presentations.
+Something to think about...
+ "Genius is one percent inspiration and ninety-nine percent perspiration." —Thomas Edison, 1931
+Marriott School Policies
+Please see https://marriottschool.byu.edu/policies/classroom/ for the official MSB policies to include:
+• Academic Honesty
+• MSM Grading Policy
+• Preventing Sexual Harassment
+• Students with Disabilities
+• Diversity
+• Laptop Policy
+• Cell/Smart Phone Policy
+Marriott Business Inclusion Statement
+At Brigham Young University’s Marriott School of Business, we embrace the university’s mission to “assist individuals in their quest
+for perfection and eternal life.” We strive to foster an environment that is respectful of all backgrounds, perspectives, and voices, that
+“all may be edified of all” (D&C 88:122). By extending a spirit of consideration, fellowship, and charity to everyone, we enable the
+discovery of common values and unique insights as we each pursue our worthy secular and spiritual goals.
+Preventing & Responding to Sexual Misconduct
+In accordance with Title IX of the Education Amendments of 1972, Brigham Young University prohibits unlawful sex discrimination
+against any participant in its education programs or activities. The university also prohibits sexual harassment—including sexual
+violence—committed by or against students, university employees, and visitors to campus. As outlined in university policy, sexual
+harassment, dating violence, domestic violence, sexual assault, and stalking are considered forms of "Sexual Misconduct" prohibited by
+the university.
+University policy requires all university employees in a teaching, managerial, or supervisory role to report all incidents of Sexual
+Misconduct that come to their attention in any way, including but not limited to face-to-face conversations, a written class assignment
+or paper, class discussion, email, text, or social media post. Incidents of Sexual Misconduct should be reported to the Title IX
+Coordinator at t9coordinator@byu.edu or (801) 422-8692. Reports may also be submitted through EthicsPoint at
+https://titleix.byu.edu/report or 1-888-238-1062 (24-hours a day).
+BYU offers confidential resources for those affected by Sexual Misconduct, including the university’s Victim Advocate, as well as a
+number of non-confidential resources and services that may be helpful. Additional information about Title IX, the university’s Sexual
+Misconduct Policy, reporting requirements, and resources can be found at http://titleix.byu.edu or by contacting the university’s Title
+IX Coordinator.
+BYU CAPS (Counseling and Psychological Services)
+BYU’s Counseling and Psychological Services (CAPS) offers a number of resources to help students manage stress and other
+challenges. See the CAPS website for helpful information. In addition, BYU Marriott and CAPS have partnered to bring a full-time
+counselor (Shannon Tappana, LCSW) and two part time therapists to the Tanner Building to better meet the wellness and counseling
+needs of BYU Marriott students. Students desiring any type of support services offered by CAPS, can go to the following page
+to Make an Appointment. After completing the online paperwork, please call CAPS at (801) 422-3035 and tell them you are a BYU
+Marriott student and they will schedule you to meet with one of the on-site counselors or help connect you to the other services you
+are requesting. Please also feel free to call Shannon at (801) 422-5139 or email MSBWellness@byu.edu if you would like to chat or
+consult less formally. (Please note that email is not considered a confidential form of communication.) In the initial appointment, the
+counselor will help you figure out the best course of action for you. They may refer you to a specific counselor, stress management
+services, or one of the following therapy groups:
+Depression
+Couples Group Therapy
+Body/Eating Concerns
+Mindful Eating
+Group Anxiety Program
+Meditation
+Mindfulness/Self-Compassion
+Trauma Recovery and Empowerment
+Sexual Concerns 1
+Page 8 of 10
+Sexual Concerns 2
+OCD Tendencies
+Autism Spectrum Issues
+General Process
+Effective Life Skills
+You may also want to use the Sanvello app, which is free for BYU students. I use it and find it helpful: https://caps.byu.edu/sanvello.
+University Accessibility Center (UAC)
+If you feel you may have test anxiety, ADHD, or some other condition for which special accommodations will help you excel, please
+contact the UAC at https://uac.byu.edu/ and fill in their request for appointment. If you have a UAC letter, I am more than happy to
+work with you in FIN 201. I want you to succeed.
+Suggestions for Further Study: As listed above, the fourth aim of the university is to inspire life-long learning and service. Following
+is my suggested list of books and resources that may help you in this aim.
+Designations to continue to study for:
+• Certified Financial Planner (CFP) Board of Standards (https://www.cfp.net/): This is the official site of the CFP Board. The
+CFP certification is for those who wish to work in the financial planning arena, such as private wealth managers, brokers,
+personal finance consultants, etc. I teach our CFP prep course (FIN 418, Financial Planning). If you are interested in becoming
+a CFP professional, we have CFP track in the finance major (https://marriott.byu.edu/bsfin/academics/tracks/private-wealthfinancial-planning/).
+• CFA Institute (http://www.cfainstitute.org/): This is the official site of the Chartered Financial Analyst (CFA) sponsor. The
+CFA charter is for those who wish to be professional asset managers for mutual funds, analysts for investment banks, etc. I
+taught the CFA prep class (FIN 510) here at BYU for six years, now Dr. Holmes has the class. He is the one who created the
+course in 2010. If you want to earn the CFA Charter, the finance major is the best option to prepare for the exams.
+We have two prep classes at BYU – this one (CFP®, FIN 418) and one for the CFA (FIN 510). I taught the CFA prep class for six
+years and now Dr. Holmes, who originally developed it in 2010, teaches it. Dr. Holmes is an expert at the CFA material and is a CFA
+charter holder. I hold both the CFA charter and CFP® designation, so am familiar with both. Some students ask which exam is best to
+take, if there is only bandwidth to take one (which is most likely the case). It completely depends on what career path you are
+targeting. If you want to be an investment banker, hedge/mutual fund manager, do financial engineering aspects of private equity,
+such as designing optimized covariance portfolios or financial derivative structures for clients, the CFA would probably be best. The
+CFA program is a series of three exams. You can pass one as an undergraduate and the other two after graduating. Passing the CFA
+Level 1 is a gigantic signal to employers.
+If you are more interested in assisting families, individuals, and businesses design their financial plan as a professional wealth advisor,
+the CFP® would most likely be better than the CFA. As you can see in the topics below, the CFP® curriculum covers material not
+covered in the finance junior core, such as trusts, estate planning, education planning, and insurance planning, among others. (This is
+why FIN 200 and FIN 418 are part of the Private Wealth and Financial Planning Track at BYU. Both FIN 200 and this class cover
+these topics.) The CFA on the other hand, is highly correlated with our junior core (but more advanced and comprehensive).
+The CFP® Board registered finance major track consists of ACC 200, FIN 201, ACC 305/310, FIN 410, FIN 453, FIN 418, and
+FIN 200. FIN 200 and FIN 418 count as the two finance electives for your finance major and the other five classes are required for the
+finance major.
+A few high-quality books to get you started. Get the newest edition of the text if you can afford it. If not, get an older edition as they
+are usually super cheap. Editions usually have a very high correlation.
+Business Statistics
+Business Statistics (Barron's Business Review Series),
+[Downing and Clark]
+Excel
+Financial Analysis with Microsoft Excel, [Mayes]
+Financial Management
+Analysis for Financial Management, by [Higgins,
+Koski, & Mitton]
+Investing
+Unshakeable, [Robbins]
+A Random Walk Down Wall Street, [Malkiel]
+Entrepreneurial Finance
+The Art of the Start, [Kawasaki]
+Entrepreneurial Finance, [Leach & Melicher]
+Personal Finance
+Total Money Makeover, [Ramsey]
+personalfinance.byu.edu, [Sudweeks] (free)
+https://financialplan.byu.edu/ (free)
+Family Stuff
+The Power of Positive Parenting, [Latham]
+Page 9 of 10
+Raising up a Family to the Lord, [Cook]
+How Will You Measure Your Life, [Christensen]
+People/Personal Skills
+How to Win Friends and Influence People,
+[Carnegie]
+The 7 Habits of Highly Effective People, [Covey]
+How to Stop Worrying and Start Living, [Carnegie]
+Quiet: The Power of Introverts, [Cain]
+The Highly Sensitive Person, [Aron]
+Nutrition
+Why We Get Fat: And What to do about It, [Taubes]
+The Case Against Sugar, [Taubes]
+Mental Health
+Feeling Good: The New Mood Therapy, [Burns]
+Freeing Yourself from Anxiety, [Chansky]
+LGBTQIA+
+Love Boldly, [Mackintosh]
+No More Goodbyes, [Pearson]
+https://questionsfromthecloset.com/ [Ben & Charlie]
+Economics
+Freakonomics, [Dubner and Levitt]
+Paradigms
+Mindset [Dweck]
+Grit [Duckworth]
+Outline [Attia]
+Everything by Malcolm Gladwell
+Everything by Brené Brown
+Education
+Up from Slavery, [Washington]
+Feminism (kind of)
+My Own Words, [Bader Ginsburg]
+Leadership
+Extreme Ownership, [Willink & Babin]
+LDS Apologetics
+Shaken Faith Syndrome, [Ash]
+Of Faith and Reason, [Ash]
+Bridges: Ministering to Those Who Question, [Ostler]
+http://www.fairmormon.org/ (free)
+http://maxwellinstitute.byu.edu/ (free)
+A Selection of Favorite BYU Devotionals (in no particular order)
+• “Agency, Accountability, and the Atonement of Jesus Christ: Application to Sexual Assault” | Benjamin M. Ogles
+• “Be As Good As You Can Be” | W. Steve Albrecht
+• “Hard Sayings and Safe Spaces: Making Room for Struggle as Well as Faith” | Eric D. Huntsman
+• “Lessons Learned from Listening to Others” | W. Steve Albrecht
+• “Spiritual Thoughts in the Classroom” | James C. Brau
+• “Stand Forever” | Lawrence E. Corbridge
+• “The Weight of the World” | James Stice
+• “We Need an Endowment” | Anthony Sweat
+• “Without Compulsory Means” | Stephen W. Liddle
+• “Women and Education: ‘A Future Only God Could See for You’” | Eva Witesman
+• “Wrestling with Comparisons” | J.B. Haws
+• “The Plagues of Prosperity” | Ben Bikman
+TED Talks I Like (in no particular order)
+• Living by an Ethos, Nicholas Lavery, https://youtu.be/FE43AC4WmdY?si=hR8Fmh4eJgyN359g
+• The Unheard Story of David and Goliath, Malcolm Galdwell, https://youtu.be/ziGD7vQOwl8?si=b651G1sc6JqQmZl1
+• The Power of Introverts, Susan Cain, https://youtu.be/c0KYU2j0TM4?si=z5ROux5mnQmMyJkw
+• Grit: The Power of Passion and Perseverance, Angela Duckworth, https://youtu.be/H14bBuluwB8?si=eXge9JR0-OcDUfV4
+• The Power of Believing You Can Improve, Carol Dweck, https://youtu.be/_X0mgOOSpLU?si=ddCRYDxNuNnEMIuj
+• Sugar is Not a Treat, Jody Stanislaw, https://youtu.be/tic7X3ET4gE?si=1CKe7RgLPo-mJSYj
+• Last Lecture Series, Graham Weaver, https://youtu.be/uxoCnxlxpIk?si=RPcrrXduzdw964Im
+Page 10 of 10
+Outline for FIN 201 -- Winter 2026
+Date Chapter Topic
+Thur, Jan 8 Syllabus Welcome to class
+Tues, Jan 13 1/2 Intro to Finance/Accounting
+Thur, Jan 15 2/3 Accounting/DuPont, Cash Flows,
+EVA
+Tues, Jan 20 3 DuPont, Cash Flows, EVA
+Thur, Jan 22 4 Financial Forecasting
+Tue, Jan 27 4 Financial Forecasting
+Thur-Fri, Jan 29-30 1-4 Exam 1*
+Tues, Feb 3 5 Time Value of Money
+Thur, Feb 5 5/6 Time Value of Money/Bonds
+Tues, Feb 10 6 Bond Valuation
+Thur, Feb 12 7 Stock Valuation
+Thur, Feb 19 7 Stock Valuation
+Mon-Tues, Feb 23-24 5-7 Exam 2*
+Thur, Feb 26 8 Risk and Return
+Tues, Mar 3 8 Risk and Return
+Thur, Mar 5 9 Cost of Capital
+Tues, Mar 10 9 Cost of Capital
+Thur, Mar 12 11 Capital Budgeting
+Tues, Mar 17 11 Capital Budgeting
+Wed-Thur, Mar 18-19 8,9,11 Exam 3*
+Tues, Mar 24 12 Capital Budgeting/Cash Flows
+Thur, Mar 26 12 Capital Budgeting/Cash Flows
+Tues, Mar 31 13 Firm Valuation/Problems
+Thur, Apr 2 15 Personal Financial Planning (visitors
+welcome)
+Tues, Apr 7 15 Personal Financial Planning (visitors
+welcome)
+Thur, Apr 9 15 Personal Financial Planning (visitors
+welcome)
+Mon-Tue, Apr 13-14 12,13,15 Exam 4*
+Finals Week-1 (Apr 17-22) All above Cumulative Final Exam

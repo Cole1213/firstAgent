@@ -1,0 +1,26 @@
+IS 590R – AI Applications in Business (Winter 2026)
+Brigham Young University – Marriott School of Business (MISM)
+Course Description
+This course prepares students to operate effectively in an AI-accelerated professional world. It
+emphasizes problem identification, systems thinking, clear communication, collaboration, and the
+design of practical AI-powered solutions. AI is treated as a thinking partner, not a shortcut.
+Learning Outcomes
+Students will learn to identify high-quality problems, apply systems thinking, communicate with
+influence, collaborate across stakeholders, understand AI architectures in business, exercise strong AI
+judgment, and integrate these skills into a meaningful end-to-end project.
+Grading Breakdown
+Participation & Engagement: 20%
+Reading Reflections & Synthesis: 20%
+Individual Assignments & Labs: 20%
+Team Project (semester-long): 40%
+Team Project Note
+Each student will submit short peer-contribution summaries. Consistent under-contribution may result in
+adjusted individual credit.
+AI Usage Policy
+AI is encouraged for ideation, prototyping, and coding. AI is not permitted for personal reflections
+unless explicitly stated. Disclosure of AI usage is required.
+Attendance & Integrity
+Because the course is discussion-based, attendance is expected. Students must follow BYU Honor
+Code and academic integrity standards.
+Final Note
+This course is designed to upgrade how you think, not just what you know.

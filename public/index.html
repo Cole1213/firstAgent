@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Multi-Tool AI Agent</title>
+  <title>Semester Study Assistant</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -322,8 +322,8 @@
 <body>
   <header>
     <h1>
-      <span class="logo">&#x2728;</span>
-      Multi-Tool AI Agent
+      <span class="logo">&#x1F393;</span>
+      Semester Study Assistant
     </h1>
     <div class="status-dot" id="status-dot" title="Connected"></div>
   </header>
@@ -332,11 +332,11 @@
     <div class="message assistant">
       <div class="avatar">&#x1F916;</div>
       <div class="bubble">
-        <p>Hello! I'm your AI research assistant. I can help you with:</p>
-        <p>&#x1F522; <strong>Math calculations</strong> — just ask me to compute something</p>
-        <p>&#x1F310; <strong>Web search</strong> — I'll find current information online</p>
-        <p>&#x1F4DA; <strong>Knowledge base</strong> — I'll search our document library</p>
-        <p>What would you like to know?</p>
+        <p>Hey! I'm your semester study assistant. I have your course syllabi loaded and ready to help:</p>
+        <p>&#x1F4DA; <strong>Course info</strong> — ECON 110, FIN 201, GSCM 201, GSCM 211, IS 590R</p>
+        <p>&#x1F522; <strong>Math calculations</strong> — homework help, finance formulas, econ problems</p>
+        <p>&#x1F310; <strong>Web search</strong> — look up anything not in your syllabi</p>
+        <p>Try asking things like "When is my FIN 201 final?" or "What textbook do I need for ECON 110?"</p>
       </div>
     </div>
   </div>
@@ -345,7 +345,7 @@
     <div class="input-wrapper">
       <textarea
         id="user-input"
-        placeholder="Type your message..."
+        placeholder="Ask about your classes, assignments, schedules..."
         rows="1"
         autofocus
       ></textarea>
@@ -365,7 +365,7 @@
     const TOOL_LABELS = {
       calculator: { icon: '\u{1F522}', label: 'Calculator' },
       web_search: { icon: '\u{1F310}', label: 'Web Search' },
-      knowledge_base_search: { icon: '\u{1F4DA}', label: 'Knowledge Base' }
+      knowledge_base_search: { icon: '\u{1F4DA}', label: 'Course Syllabi' }
     };
 
     userInput.addEventListener('input', () => {
