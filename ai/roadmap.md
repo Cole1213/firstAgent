@@ -8,8 +8,8 @@
 ## Phase 2: Core Tools ✅
 - [x] Calculator tool
 - [x] Tavily web search tool
-- [x] RAG tool with 5+ documents ingested
-- [x] Persistent vector store
+- [x] RAG tool with documents ingested
+- [x] Persistent vector store (HNSWLib)
 
 ## Phase 3: Agent Assembly ✅
 - [x] ReAct agent with LangChain
@@ -24,4 +24,10 @@
 ## Phase 5: Polish ✅
 - [x] README.md
 - [x] .env.example complete
-- [ ] End-to-end testing of all tools
+- [x] End-to-end testing of all tools
+
+## Phase 6: Study Assistant Customisation ✅
+- [x] Replaced generic docs with BYU Winter 2026 course syllabi
+- [x] Updated agent system prompt for study assistant role
+- [x] Updated UI with course-specific welcome message and branding
+- [x] Updated all documentation to reflect new focus

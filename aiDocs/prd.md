@@ -1,53 +1,50 @@
-# Product Requirements Document — Multi-Tool AI Agent
+# Product Requirements Document — Semester Study Assistant
 
 ## Problem Statement
 
-Developers and researchers frequently need a single conversational interface that can perform diverse tasks — mathematical computation, real-time web research, and retrieval from a private knowledge base — without switching between applications. Existing chatbots are typically limited to a single capability or lack transparency about which data sources inform their answers.
+University students juggle multiple courses with different schedules, grading policies, textbook requirements, and assignment deadlines spread across separate syllabi. Finding specific information quickly — "When is my FIN 201 final?" or "What's the grading breakdown for ECON 110?" — means digging through individual documents.
 
-This project fills that gap by building an AI agent that dynamically selects from multiple specialised tools, cites its sources, and streams its reasoning process to the user in real time.
+This project builds an AI-powered study assistant that ingests all of a student's course syllabi into a searchable knowledge base, combined with a calculator for homework math and web search for supplementary information — all in a single conversational interface with real-time streaming.
 
-## User Personas
+## User Persona
 
-### 1. Developer / Technical Learner
-Wants to ask questions about Node.js, LangChain, or AI concepts and get accurate answers grounded in ingested documentation, with clear source attribution.
-
-### 2. Researcher
-Needs up-to-date information from the web combined with the ability to query a curated knowledge base, all in a single conversation thread.
-
-### 3. Student
-Requires a calculator for math problems, a search engine for fact-checking, and a study-buddy that remembers context across a multi-turn conversation.
+### BYU Student (Winter 2026)
+Taking five courses: ECON 110, FIN 201, GSCM 201, GSCM 211, and IS 590R. Needs quick answers about class schedules, grading policies, instructor contact info, textbook requirements, and assignment details. Also needs a calculator for finance and economics homework and web search for topics not covered by syllabi.
 
 ## Tools — Behaviour Specifications
 
 ### Tool 1: Calculator (`calculator`)
 - **Input**: A valid mathematical expression string (e.g., `"sqrt(144) + 5 * 3"`).
 - **Behaviour**: Evaluates the expression using `mathjs`. Returns the numeric result as a string.
+- **Use cases**: Finance formulas (PV, FV, NPV), economics calculations, GPA math.
 - **Error handling**: Returns a human-readable error string on invalid input; never throws.
 - **Logging**: Every invocation is logged with tool name, input expression, result, and latency.
 
 ### Tool 2: Web Search (`web_search`)
 - **Input**: A natural-language search query string.
 - **Behaviour**: Queries the Tavily API and returns the top 3 results with titles, snippets, and URLs.
+- **Use cases**: Looking up concepts not in the syllabi, current events for class discussions, supplementary study material.
 - **Error handling**: Returns an error string if the API call fails.
 - **Logging**: Input query, number of results returned, and latency.
 
 ### Tool 3: Knowledge Base Search (`knowledge_base_search`)
 - **Input**: A natural-language question or keyword query.
-- **Behaviour**: Performs a similarity search (top 3) against the HNSWLib vector store. Returns matching passages with source-file attribution.
+- **Behaviour**: Performs a similarity search (top 3) against the HNSWLib vector store containing course syllabi. Returns matching passages with source-file attribution.
 - **Output format**:
   ```
-  Result 1 (Source: document_name.txt):
+  Result 1 (Source: fin_201.txt):
   <passage text>
 
-  Result 2 (Source: ...):
+  Result 2 (Source: econ_110.txt):
   <passage text>
   ```
+- **Use cases**: Grading breakdowns, exam dates, office hours, textbook info, assignment policies.
 - **Error handling**: Returns an error string if the vector store is unavailable.
 - **Logging**: Input query, number of results, sources returned, and latency.
 
 ### Tool 4: Conversation Memory (implicit)
-- Implemented via `BufferWindowMemory` (k=10).
-- Maintains per-session chat history so the agent can reference earlier messages.
+- Maintains per-session message history (k=10 exchanges).
+- Enables multi-turn conversations so the agent can reference earlier messages.
 - Memory is keyed by `sessionId` — each browser tab gets its own conversation thread.
 
 ## Acceptance Criteria
@@ -55,14 +52,14 @@ Requires a calculator for math problems, a search engine for fact-checking, and 
 | # | Criterion |
 |---|-----------|
 | 1 | The agent correctly selects the calculator tool when the user asks a math question. |
-| 2 | The agent correctly selects web search for questions about current events or topics not in the knowledge base. |
-| 3 | The agent correctly selects the knowledge base for questions covered by ingested documents. |
-| 4 | RAG results include source-file attribution visible in the chat UI. |
+| 2 | The agent correctly selects web search for questions about current events or topics not in the syllabi. |
+| 3 | The agent correctly selects the knowledge base for questions about courses, schedules, or grading. |
+| 4 | RAG results include source-file attribution visible in the chat UI (e.g., "According to your FIN 201 syllabus…"). |
 | 5 | The chat UI streams tokens in real time (no waiting for full completion). |
-| 6 | Tool usage badges (calculator, search, RAG) appear on relevant assistant messages. |
+| 6 | Tool usage badges (Calculator, Web Search, Course Syllabi) appear on relevant assistant messages. |
 | 7 | Conversation memory persists within a session — the agent can reference earlier messages. |
 | 8 | All tool invocations are logged to `logs/agent.log` with structured JSON. |
-| 9 | The project runs successfully with `npm install && node server.js` (after environment setup). |
+| 9 | The project runs successfully with `npm install && npm run ingest && npm start`. |
 | 10 | The README provides clear, complete setup instructions. |
 
 ## Non-Functional Requirements
@@ -81,3 +78,4 @@ Requires a calculator for math problems, a search engine for fact-checking, and 
 - File upload for dynamic document ingestion via the UI.
 - Database-backed chat history persistence (memory is in-process only).
 - Automated test suite (manual testing via the UI is acceptable).
+- PDF ingestion (syllabi must be converted to `.txt` before ingestion).
